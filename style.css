@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+   
+}
+.container{
+    max-width:1000px;
+    margin:0 auto;
+    background-color: #E4F9F5 ;
+    
+    padding:20px;
+}
+body{
+    background-color: #EEE;
+    font-family:'Roboto', sans-serif; 
+}
+.profile-image{
+    height:120px;
+    weight:100px;
+    border:solid white 3px;
+    border-radius:50%; 
+    float:left;
+}
+.header-bio{
+    padding:30px;
+    float:left;
+}
+h1,h2,h3,h4,h5{
+       color:#11999e;
+}
+.header-contact{
+    padding:30px;
+    float:right;
+}
+.header-contact a{
+    text-decoration: none;
+    color:teal;
+    font-weight: bold;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.clear-div{
+    clear:both;
+}
+hr{
+    border:solid black 3px;
+    border-bottom: none;
+    margin:20px auto;
+    width:100%;
+}
+.content{
+
+}
+.left-div{
+      width:30%;
+      float:left;
+}
+.right-div{
+      width:70%;
+      float:left;
+}
+.common-hr{
+    border:1px black solid;
+    box-shadow: none;
+    margin:20px auto;
+    width:100%;
+}
+.edu-bio-left{
+    width:45%;
+    float:left;
+}
+.edu-bio-right{
+    width:45%;
+    float:right;
+}
+.bottom-container{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.bottom-container a{
+    color:white;
+    text-decoration: none;
+    margin:20px;
+   
+}
+.bottom-container p{
+    color:white;
+    margin:20px;
+   
+}
